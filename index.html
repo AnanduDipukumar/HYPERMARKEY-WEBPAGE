@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <script src="script.js" charset="utf-8"></script>
+    <title>Flexbox_Reference</title>
+
+  </head>
+  <body>
+
+      <header>
+        <div class="header2">
+          <div class="item3">
+            <div class="leftbox">
+              <div>Tab1</div>
+              <div>Tab2</div>
+              <div>Tab3</div>
+              <div>Tab4</div>
+              <div>Tab5</div>
+            </div>
+            <div class="virtual_wrapper">
+            </div>
+            <div class="rightbox">
+              <div>Tab1</div>
+              <div>Tab2</div>
+              <div>Tab3</div>
+              <div>Tab4</div>
+              <div>Tab5</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="header1">
+
+          <div class="item1">
+            <h1>CSS-FLEXBOX</h1>
+            <nav class="container1">
+              <div>Home</div>
+              <div>Components</div>
+              <div>Search</div>
+              <div><input type="text" placeholder="Search Components"></div>
+              <div>Cart</div>
+              <div>Account</div>
+              <div>Logout</div>
+            </nav>
+          </div>
+        </div>
+      </header>
+        <main class="wrapper">
+          <h1>Here comes the matter</h1>
+          <P>The following is an attempt to make a flexbox art using the
+            css-flexbox property</p>
+            <div class="imgflex">
+              <img src="images/img01.jpg" alt="nature_pics">
+              <img src="images/img02.jpg" alt="nature_pics">
+              <img src="images/img03.jpg" alt="nature_pics">
+              <img src="images/img04.jpg" alt="nature_pics">
+              <img src="images/img05.jpg" alt="nature_pics">
+              <img src="images/img06.jpg" alt="nature_pics">
+              <img src="images/img07.jpg" alt="nature_pics">
+              <img src="images/img08.jpg" alt="nature_pics">
+              <img src="images/img15.jpg" alt="nature_pics">
+              <img src="images/img16.jpg" alt="nature_pics">
+              <img src="images/img11.jpg" alt="nature_pics">
+              <img src="images/img12.jpg" alt="nature_pics">
+              <im g src="images/img13.jpg" alt="nature_pics">
+              <img src="images/img14.jpg" alt="nature_pics">
+            </div>
+            <section class="sec2">
+                <h3>JavaScript</h3>
+                <div id="ball"></div>
+                <button type="button" id="btnr" onClick="fx1('red')" name="red">red</button>
+                <button type="button" id="btng" onClick="fx1('green')" name="green">green</button>
+                <button type="button" id="btnb" onClick="fx1('blue')" name="blue">blue</button>
+                <button type="button" id="btnrst" onClick="fx1('#999')"name="resest">reset</button>
+              </section>
+
+          <h3>Calculator</h3>
+          <p>the following is an attempt of mine to make a calculator</p>
+          <span class="calc">
+            <div>
+            <div id="disp">0</div></div>
+            <button onClick="fx2(7,0)">7</button>
+            <button onClick="fx2(8,0)">8</button>
+            <button onClick="fx2(9,0)">9</button>
+            <button onClick="fx2('<',3)"><</button>
+            <button onClick="fx2(4,0)">4</button>
+            <button onClick="fx2(5,0)">5</button>
+            <button onClick="fx2(6,0)">6</button>
+            <button onClick="fx2('=',2)">=</button>
+            <button onClick="fx2(1,0)">1</button>
+            <button onClick="fx2(2,0)">2</button>
+            <button onClick="fx2(3,0)">3</button>
+            <button onClick="fx2('+',1)">+</button>
+            <button onClick="fx2('/',1)">#</button>
+            <button onClick="fx2(0,0)">0</button>
+            <button onClick="fx2('*',1)">*</button>
+            <button onClick="fx2('-',1)">-</button>
+          </span>
+          <section class="detsec">
+            <h3>Determinant Cakculator</h3>
+          <div class="detcalc">
+            <input tabindex="1" type="number">
+            <input tabindex="2" type="number">
+            <input tabindex="3"type="number">
+            <div></div>
+            <input type="text" tabindex="13"value="x">
+            <div></div>
+            <input tabindex="10"type="number">
+
+            <input tabindex="4"type="number">
+            <input tabindex="5"type="number">
+            <input tabindex="6"type="number">
+            <div class="flex1"><div>x</div></div>
+            <input type="text"value="y"tabindex="14">
+            <div class="flex1"><div>=</div></div>
+            <input tabindex="11"type="number">
+
+            <input tabindex="7"type="number">
+            <input tabindex="8"type="number">
+            <input tabindex="9"type="number">
+            <div></div>
+            <input type="text" value="z"tabindex="15">
+            <div></div>
+            <input tabindex="12" type="number">
+          </div>
+          <button id="compute" onClick="det()">Evaluate</button>
+          <span>Ans:</span><span id="res">00</span>
+        </section>
+        </main>
+      <footer>
+
+      </footer>
+      <script>
+      document.getElementsById('res').innerHTML=66;
+      </script>
+
+  </body>
+</html>
